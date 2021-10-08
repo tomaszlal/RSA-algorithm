@@ -1,0 +1,19 @@
+Do uruchomienia programu potrzebne jest œrodowisko wykonawcze Javy 1.4. dostarczone na p³ycie - Java Runtime Enviroment dla œrodowiska Windows
+
+Program uruchamiamy plikiem "szyfrRsa.jar" lub skompilowaæ i uruchomiæ plik "SzyfrRsa.java"
+
+W programie nale¿y najpierw wygenerowaæ klucz i zapisaæ go na dysku:
+- klucz publiczny z rozszerzeniem "*.kpu"
+- klucz prywatny z rozszerzeniem "*.kpr"
+
+Zgodnie z algorytmem szyfru RSA aby zakodowaæ plik tekstowy nale¿y:
+1.  z menu Operacja wybraæ opcje Szyfrowania
+2.  z menu Klucz wybraæ Wczytaj Klucz Publiczny i wprowadziæ plik klucza z rozszerzeniem "*.kpu" - w ramce Plik Klucza pojawi siê nazwa pliku z kluczem;
+3.  wpisaæ b¹dz wstawiæ nazwe pliku tekstowego do zaszyfrowania w ramkê Plik ród³owy - automatycznie pojawi siê w ramce Plik Docelowy nazwa wczytanego pliku z rozszerzeniem "*.kod"
+4.  Po naciœniêciu klawisza szyfruj nale¿y chwilê poczekaæ w zale¿noœci od wielkoœci pliku
+ 
+Operacje deszyfrowania nale¿y wykonaæ w nastêpuj¹cej kolejnoœci
+1.  z menu Operacja wybraæ opcje Deszyfrowania
+2.  z menu Klucz wybraæ Wczytaj Klucz Prywatny i wprowadziæ plik klucza z rozszerzeniem "*.kpr" - w ramce Plik Klucza pojawi siê nazwa pliku z kluczem;
+3.  wpisaæ b¹dz wstawiæ nazwe pliku zaszyfrowanego z rozrszerzeniem "*.kod" w ramkê Plik ród³owy a, w ramkê Plik Docelowy wpisaæ nazwe pliku wyjœciowego
+4.  Po naciœniêciu klawisza Deszyfruj nale¿y chwilê poczekaæ w zale¿noœci od wielkoœci pliku.
